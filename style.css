@@ -1,0 +1,195 @@
+/* Starting with the index.html/aboutme*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: #4aaaa5;
+}
+
+#video-elem {
+    position: fixed;
+    z-index: -999;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+.contained {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    padding: 10px;
+    height: 50%;
+}
+
+.para {
+    color: black;
+}
+
+#title {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    min-height: 70px;
+}
+
+header a {
+    color: #777777;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #title {
+    float: left;
+}
+
+header #title h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    padding-top: 2.5%;
+}
+
+.section {
+    margin-top: 100px;
+    height: 100%;
+}
+
+.image{
+    width: 200px;
+    float: left;
+    margin: 0 20px;
+}
+
+.para{
+    float: left;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+}
+/**End of About Me/Index.html**/
+/**Beginning of Contact.html**/
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: #4aaaa5;
+}
+
+.text {
+    background: #ffffff;
+    width: 500px;
+    font-size: 20px;
+    margin: auto;
+    color: gray;
+}
+
+.submit {
+    padding: 10px;
+    text-align: start;
+}
+
+.btn {
+   width: 130px; 
+   height: 50px;
+   border: none;
+   color: #4aaaa5;
+   border-radius: 4px;
+   transition: ease-out 0,3s;
+   font-size: 1.5rem;
+   outline: none;
+   border: 3px solid #4aaaa5;
+   position: relative;
+   z-index: 1;
+}
+
+.btn:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;  
+    opacity: 0; 
+    content: "";
+    background-color: #4aaaa5;
+}
+
+.btn:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+.size {
+    width: 200px;
+    height: 150px;
+
+}
+.imgtext {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 180px;
+    padding:  10px;
+    text-align: center;
+    margin-top: 0;
+}
+
+#picofme,
+#hondapic,
+#nflpic,
+#workoutpic
+{
+    float: left;
+    margin: 10px 10px 0px 20px;
+    
+}
+#picofme{
+    margin-left: 200px;
+}
+
+
